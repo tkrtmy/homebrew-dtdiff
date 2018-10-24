@@ -8,10 +8,10 @@ class Dtdiff < Formula
 
   if Hardware::CPU.is_64_bit?
     url "https://github.com/tkrtmy/dtdiff/releases/download/#{VERSION}/dtdiff_darwin_amd64"
-    sha256 "94f0b24d1f6e825688bdbb8459f746ec14a2940bed4350eff27375043b26bb7a"
+    sha256 "bc00ab3598ae21449c386fa693b2ce30059f60222bf56bc9b8ed5af02381eac6"
   else
     url "https://github.com/tkrtmy/dtdiff/releases/download/#{VERSION}/dtdiff_darwin_386"
-    sha256 "af5b86df0ffbe58ee7d27f0f6756859aee941d368c942947f32cb68cae0035f6"
+    sha256 "3ab9c2e784c8354fe6f1c62e9406b7226de7f32db15624d725e4dfbfca2db93a"
   end
 
   def install
