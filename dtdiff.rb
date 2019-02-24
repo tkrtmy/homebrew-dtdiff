@@ -1,4 +1,4 @@
-VERSION = 'v0.2.0'
+VERSION = 'v0.3.0'
 
 class Dtdiff < Formula
   desc "calculate date time diff"
@@ -8,10 +8,10 @@ class Dtdiff < Formula
 
   if Hardware::CPU.is_64_bit?
     url "https://github.com/tkrtmy/dtdiff/releases/download/#{VERSION}/dtdiff_darwin_amd64"
-    sha256 "bc00ab3598ae21449c386fa693b2ce30059f60222bf56bc9b8ed5af02381eac6"
+    sha256 "0a8f9dd4bba52ddf1643bb33e4ca29a6806528fc7bfc97e720d7d1d89b78162c"
   else
     url "https://github.com/tkrtmy/dtdiff/releases/download/#{VERSION}/dtdiff_darwin_386"
-    sha256 "3ab9c2e784c8354fe6f1c62e9406b7226de7f32db15624d725e4dfbfca2db93a"
+    sha256 "e83c61317dfca92d6f7bf962940592ccba7f6ba60083dbfa77da0601982f9293"
   end
 
   def install
