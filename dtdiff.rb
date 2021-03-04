@@ -1,4 +1,4 @@
-VERSION = 'v0.4.0'
+VERSION = 'v0.4.1'
 
 class Dtdiff < Formula
   desc "calculate date time diff"
@@ -7,7 +7,7 @@ class Dtdiff < Formula
   head "https://github.com/tkrtmy/dtdiff.git"
   license "MIT"
 
-  url "https://github.com/tkrtmy/dtdiff/releases/download/v0.4.0/dtdiff_darwin_amd64.tar.gz"
+  url "https://github.com/tkrtmy/dtdiff/releases/download/#{VERSION}/dtdiff_darwin_amd64.tar.gz"
   sha256 "5e8ecd24de576faf15065b32a14d58b6e1572e2195601713f4e39beaeef2530a"
 
   def install
