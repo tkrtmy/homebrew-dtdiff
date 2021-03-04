@@ -8,7 +8,7 @@ class Dtdiff < Formula
   license "MIT"
 
   url "https://github.com/tkrtmy/dtdiff/releases/download/#{VERSION}/dtdiff_darwin_amd64.tar.gz"
-  sha256 "91196bf37ea5870278259ab51436ed025c5379bf85c797f9b9980b1084e37e79"
+  sha256 "615ceb62767d5362090865b3efce175c8102658647c5155c53b0de104197a3ce"
 
   def install
     bin.install "dtdiff"
